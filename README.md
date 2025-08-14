@@ -4,6 +4,8 @@ ComfyUI node implementing caching optimizations for [Chroma](https://huggingface
 Inspired by techniques like TeaCache and FBCache. Unlike other models, Chroma's first block residual has low similarity between timesteps, so we refresh the cache at fixed intervals instead.
 
 # Usage
+Use the `Chroma Cache` node.
+
 Reasonable settings:
 - start: 0.30
 - end: 1.0
