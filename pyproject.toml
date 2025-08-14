@@ -1,0 +1,13 @@
+[project]
+name = "chroma_cache"
+version = "0.0.1"
+description = "Caching optimization for Chroma"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/feffy380/comfyui-chroma-cache"
+
+[tool.comfy]
+PublisherId = "feffy380"
+DisplayName = "Chroma Cache"
+Icon = ""
